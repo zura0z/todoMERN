@@ -1,0 +1,119 @@
+.message-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 100px;
+  padding: 0 14px;
+  border-left: solid 8px transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#111114), to(#111114)), -webkit-gradient(linear, left top, right top, from(#111114), to(#111114));
+  background-image: linear-gradient(#111114, #111114), linear-gradient(to right, #111114, #111114);
+  border-radius: 4px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  opacity: 0.5;
+  -webkit-animation-name: bounceIn;
+          animation-name: bounceIn;
+  -webkit-animation-duration: 200ms;
+          animation-duration: 200ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.message-container .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.message-container .message .messages-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.message-container .message .messages-icon-container .messages-icon {
+  font-size: 28px;
+}
+
+.message-container .message .message-text-container {
+  padding: 0 10px;
+}
+
+.message-container .message .message-text-container .message-text {
+  color: white;
+  font-weight: 600;
+}
+
+.message-container .message-closeBtn-container {
+  border-left: 1px solid #ffffff6e;
+}
+
+.message-container .message-closeBtn-container .message-closeBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #a7a7a7;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 18px 0 18px 12px;
+}
+
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.3) translate3d(0, 0, 0);
+            transform: scale(0.3) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.9;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: scale(0.89);
+            transform: scale(0.89);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.3) translate3d(0, 0, 0);
+            transform: scale(0.3) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.9;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    -webkit-transform: scale(0.89);
+            transform: scale(0.89);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+/*# sourceMappingURL=Message.css.map */

@@ -1,0 +1,9 @@
+.homePage-container .illustration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 450px;
+  margin: 150px auto;
+}
+/*# sourceMappingURL=HomePage.css.map */

@@ -1,0 +1,99 @@
+.todoCard-container {
+  border: 2px solid #1a1a1b;
+  border-radius: 7px;
+  background-color: #101011;
+}
+
+.todoCard-container > p {
+  padding: 10px 0px 8px 8px;
+}
+
+.todoCard-container > h1 {
+  padding: 10px 8px 0 8px;
+}
+
+.todoCard-container .todoCard-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todoCard-container .todoCard-buttons > button,
+.todoCard-container .todoCard-buttons .todoCard-editBtn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.todoCard-container .todoCard-buttons > button:hover,
+.todoCard-container .todoCard-buttons .todoCard-editBtn:hover {
+  opacity: 0.9;
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
+}
+
+.todoCard-container .todoCard-buttons > button:active,
+.todoCard-container .todoCard-buttons .todoCard-editBtn:active {
+  opacity: 1;
+}
+
+.todoCard-container .todoCard-buttons .todoCard-deleteBtn {
+  background-color: #cc0000;
+}
+
+.todoCard-container .todoCard-buttons .todoCard-deleteBtn {
+  border-bottom-right-radius: 5px;
+}
+
+.todoCard-container .todoCard-buttons .todoCard-editBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3242cd;
+}
+
+.todoCard-container .todoCard-buttons .todoCard-doneBtn {
+  background-color: #199d58;
+}
+
+.todoCard-container .todoCard-buttons .todoCard-doneBtn {
+  border-bottom-left-radius: 5px;
+}
+
+.todoCard-container .todoCard-buttons .fa-trash,
+.todoCard-container .todoCard-buttons .fa-edit,
+.todoCard-container .todoCard-buttons .fa-check {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.todoCard-doneDeleteBtn {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #cc0000;
+  border-radius: 0 0 5px 5px;
+}
+
+.todoCard-doneDeleteBtn:hover {
+  opacity: 0.9;
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
+}
+
+.todoCard-doneDeleteBtn:active {
+  opacity: 1;
+}
+
+.todoCard-doneDeleteBtn .fa-trash {
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=Todo.css.map */

@@ -1,0 +1,43 @@
+.button {
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 600;
+  background-color: #3242cd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button:hover {
+  background-color: #313eb6;
+  -webkit-transition: 200ms ease-in;
+  transition: 200ms ease-in;
+}
+
+.button:active {
+  background-color: #273297;
+  -webkit-transition: 100ms ease-in;
+  transition: 100ms ease-in;
+}
+
+.button:disabled {
+  background-color: #050b3f;
+  cursor: wait;
+}
+
+.button .loadingGif {
+  width: 20px;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=Button.css.map */

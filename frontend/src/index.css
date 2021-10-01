@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #09090c;
+    overflow-x: hidden;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #161616 inset;
+    -webkit-box-shadow: 0 0 0 30px #161616 inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #cccccc;
+}
